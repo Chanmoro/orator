@@ -27,7 +27,7 @@ Faker = "^0.8"
 lazy-object-proxy = "^1.2"
 pendulum = "^1.4"
 pyaml = "^16.12"
-pyyaml = "^5.1"
+pyyaml = "^5.1,!=5.4.0,!=5.4.1" # NOTE: 5.4.0 and 5.4.1 are broken. see https://github.com/yaml/pyyaml/issues/724#issuecomment-1638591821
 Pygments = "^2.2"
 simplejson = "^3.10"
 six = "^1.10"
